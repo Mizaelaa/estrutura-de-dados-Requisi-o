@@ -10,7 +10,6 @@ typedef struct {
 // Cria uma nova requisição
 Requisicao* cria_requisicao(const char *nome, int inscricao, const char *procedimento);
 
-// Corrigir tipo de retorno para 'char*' nas funções de acesso às strings
 char* get_nome(Requisicao *r);
 
 int get_inscricao(Requisicao *r);
